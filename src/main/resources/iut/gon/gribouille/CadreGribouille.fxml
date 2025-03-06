@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane prefHeight="482.0" prefWidth="830.0" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <fx:include source="dessin.fxml" fx:id="dessin"/>
+   </center>
+   <top>
+      <fx:include source="menus.fxml" fx:id="menus"/>
+   </top>
+   <right>
+      <fx:include source="couleurs.fxml" fx:id="couleurs"/>
+   </right>
+   <bottom>
+      <fx:include source="statut.fxml" fx:id="statut"/>
+   </bottom>
+</BorderPane>

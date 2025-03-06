@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+
+<VBox
+	fx:id="vbox"
+	fx:controller="iut.gon.gribouille.controleurs.ControleurCouleurs"
+	prefHeight="246.0" prefWidth="112.0"
+	style="-fx-background-color: #D3D3D3;"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<ColorPicker fx:id="colorPicker" prefHeight="32.0"
+			prefWidth="112.0" />
+		<TilePane fx:id="tilePane" prefHeight="176.0"
+			prefWidth="127.0">
+			<children>
+				<Rectangle fx:id="rouge" arcHeight="5.0" arcWidth="5.0"
+					fill="RED" height="50.0" stroke="BLACK" strokeType="INSIDE"
+					width="50.0">
+					<TilePane.margin>
+						<Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+					</TilePane.margin>
+				</Rectangle>
+				<Rectangle fx:id="vert" arcHeight="5.0" arcWidth="5.0"
+					fill="LIME" height="50.0" stroke="BLACK" strokeType="INSIDE"
+					width="50.0">
+					<TilePane.margin>
+						<Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+					</TilePane.margin>
+				</Rectangle>
+				<Rectangle fx:id="bleuFonce" arcHeight="5.0"
+					arcWidth="5.0" fill="#005eb5" height="50.0" stroke="BLACK"
+					strokeType="INSIDE" width="50.0" />
+				<Rectangle fx:id="bleuClair" arcHeight="5.0"
+					arcWidth="5.0" fill="AQUA" height="50.0" stroke="BLACK"
+					strokeType="INSIDE" width="50.0" />
+				<Rectangle fx:id="rose" arcHeight="5.0" arcWidth="5.0"
+					fill="#f500f5" height="50.0" stroke="BLACK" strokeType="INSIDE"
+					width="50.0" />
+				<Rectangle fx:id="jaune" arcHeight="5.0" arcWidth="5.0"
+					fill="YELLOW" height="50.0" stroke="BLACK" strokeType="INSIDE"
+					width="50.0" />
+				<Rectangle fx:id="noir" arcHeight="5.0" arcWidth="5.0"
+					height="50.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+				<Rectangle fx:id="blanc" arcHeight="5.0" arcWidth="5.0"
+					fill="WHITE" height="50.0" stroke="BLACK" strokeType="INSIDE"
+					width="50.0" />
+			</children>
+		</TilePane>
+	</children>
+</VBox>
+

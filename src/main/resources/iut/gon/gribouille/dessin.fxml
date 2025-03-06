@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.canvas.Canvas?>
+
+
+<Pane fx:controller="iut.gon.gribouille.controleurs.ControleurDessin" fx:id="pane" prefHeight="200.0" prefWidth="551.0" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Canvas onMouseMoved="#onMouseMoved" onMouseDragged="#onMouseDragged" onMousePressed="#onMousePressed" fx:id="canvasDessin" height="200.0" width="200.0" />
+	</children>
+</Pane>
+
+
