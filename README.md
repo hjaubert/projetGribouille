@@ -5,7 +5,6 @@ Gribouille est un logiciel de dessin développé en Java en utilisant la bibliot
 ## Fonctionnalités
 
 - Interface utilisateur intuitive pour dessiner à main levée.
-- Support des formes de base (lignes, cercles, rectangles, etc.).
 - Outils de sélection de couleurs et d'épaisseur de trait.
 - Fonctionnalités d'annulation et de rétablissement.
 - Sauvegarde et chargement des dessins.
